@@ -33,7 +33,7 @@
   </select>
   <div>
     <iframe 
-      src="https://www.twitch.tv/embed/indenthorizon/chat?parent=localhost,indenthorizon.com"
+      src="https://www.twitch.tv/embed/indenthorizon/chat?parent=localhost&parent=indenthorizon.com"
       height="500"
       width="500"
       title="Global Chat">
