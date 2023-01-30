@@ -4,7 +4,7 @@
 <div><h1>Welcome to Indent Horizon.</h1></div>
 
 <div class="container">
-  <input type="text" placeholder="Ship Name"/>  
+<input type="text" placeholder="Ship Name"/>
   <textarea></textarea>
   <div id="deploy-container"><button id="deploy-button">Deploy Program</button></div>
   <div>
@@ -33,7 +33,7 @@
   </select>
   <div>
     <iframe 
-      src="https://www.twitch.tv/embed/indenthorizon/chat?parent=localhost"
+      src="https://www.twitch.tv/embed/indenthorizon/chat?parent=localhost,*.vercel.app"
       height="500"
       width="500"
       title="Global Chat">
@@ -56,6 +56,7 @@
   }
 
   input, option, select {
+    display: block;
     padding: 0.5rem;
   }
 
