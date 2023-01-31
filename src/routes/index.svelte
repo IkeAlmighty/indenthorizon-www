@@ -1,11 +1,15 @@
+<script>
 
+import CodeEditor from '$lib/components/CodeEditor.svelte'
+let code = "// Example Ship Program: "
+</script>
 
 
 <div><h1>Welcome to Indent Horizon.</h1></div>
 
 <div class="container">
 <input type="text" placeholder="Ship Name"/>
-  <textarea></textarea>
+  <CodeEditor bind:code={code}/>
   <div id="deploy-container"><button id="deploy-button">Deploy Program</button></div>
   <div>
     <select>
@@ -42,18 +46,6 @@
 </div>
 
 <style>
-
-  textarea {
-    display: block;
-    margin: 1px 0;
-    width: 500px;
-    height: 500px;
-    padding: 1rem;
-  }
-
-  textarea {
-    display: inline-block;
-  }
 
   input, option, select {
     display: block;
