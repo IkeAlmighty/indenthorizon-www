@@ -1,10 +1,12 @@
-# Indent Horizon SvelteKit Client
+# Indent Horizon SvelteKit Code Editor/Client
 
 ## What is Indent Horizon?
 
 Indent Horizon is a community-hosted massively multiplayer spaceship coding game. The game strives to be fun for both veteran computer programmers **and also** beginners.
 
-This repo contains a implementation of the game client written in svelte, if you are interested in hosting your own shard then go to [this repository](https://github.com/ikealmighty/indenthorizon-shard).
+This repo contains a implementation of the game client written in svelte.
+
+If you are interested in hosting your own shard then go to [this repository](https://github.com/ikealmighty/indenthorizon-shard).
 
 ## Game Design
 
